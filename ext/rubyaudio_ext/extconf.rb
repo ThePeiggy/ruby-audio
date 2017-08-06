@@ -12,8 +12,8 @@ else
   sndfile_lib = 'sndfile'
 end
 
-INCLUDE_DIRS = ['/tmp/libsndfile/include', '/opt/local/include', '/usr/local/include', 'C:/Program Files (x86)/Mega-Nerd/libsndfile/include', 'C:/Program Files/Mega-Nerd/libsndfile/include']
-LIB_DIRS = ['/tmp/libsndfile/lib', '/opt/local/lib', '/usr/local/lib', 'C:/Program Files (x86)/Mega-Nerd/libsndfile/bin', 'C:/Program Files/Mega-Nerd/libsndfile/bin']
+INCLUDE_DIRS = ['/tmp/libsndfile/include', '/home/circleci/repo/libsndfile/include', '/opt/local/include', '/usr/local/include', 'C:/Program Files (x86)/Mega-Nerd/libsndfile/include', 'C:/Program Files/Mega-Nerd/libsndfile/include']
+LIB_DIRS = ['/tmp/libsndfile/lib', '/home/circleci/repo/libsndfile/lib', '/opt/local/lib', '/usr/local/lib', 'C:/Program Files (x86)/Mega-Nerd/libsndfile/bin', 'C:/Program Files/Mega-Nerd/libsndfile/bin']
 
 # libsndfile requirements
 find_header 'sndfile.h', *INCLUDE_DIRS
