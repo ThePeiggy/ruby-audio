@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name        = 'ruby-audio'
-  s.version     = '1.6.1'
+  s.version     = '1.6.2'
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Stephen Augenstein']
-  s.email       = ['perl.programmer@gmail.com']
-  s.homepage    = 'http://github.com/warhammerkid/ruby-audio'
+  s.authors     = ['Stephen Augenstein', 'Peihong Li']
+  s.email       = ['perl.programmer@gmail.com', 'peihongli94@gmail.com']
+  s.homepage    = 'http://github.com/thepeiggy/ruby-audio'
   s.summary     = 'libsndfile wrapper for ruby'
   s.description = 'ruby-audio wraps around libsndfile to provide simplified sound reading and writing support to ruby programs'
 
